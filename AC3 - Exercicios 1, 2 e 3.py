@@ -10,18 +10,18 @@ A função deve retornar "Não é um triângulo" se os três lados não formarem
 
 def determina_tipo_triangulo(a,b,c):
     if a >= b + c or b >= a + c or c >= b + a:
-        print ("Não é um triangulo")
+        return ("Não é um triangulo")
     elif a == c and a == b and c==b:
-        print ("Equilátero")
+        return ("Equilátero")
     elif a == c or a == b or c == b:
-        print ("Isóceles")
+        return ("Isóceles")
     else:
-        print ("Escaleno")
+        return ("Escaleno")
 
-determina_tipo_triangulo(4,4,4)
-determina_tipo_triangulo(2,4,4)
-determina_tipo_triangulo(3,4,5)
-determina_tipo_triangulo(1,1,4)
+print(determina_tipo_triangulo(4,4,4))
+print(determina_tipo_triangulo(2,4,4))
+print(determina_tipo_triangulo(3,4,5))
+print(determina_tipo_triangulo(1,1,4))
 
 """
 Exercício 2: dia da semana
@@ -77,7 +77,7 @@ def Divisão(N1,N2):
     if N2 != 0:
         return N1 / N2
     else:
-        return "Erro: Divisão por zero"
+        return "Erro!!! Divisão por zero"
 
 
 def caluculadora_simples():
@@ -97,4 +97,3 @@ def caluculadora_simples():
         print("Operação Invalida")
 
 caluculadora_simples()
-    
