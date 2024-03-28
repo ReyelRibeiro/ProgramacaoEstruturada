@@ -6,7 +6,7 @@ Aluno: Reyel Palma Ribeiro
 
 import random
 
-def show_atributos():
+def main():
     
     Vida_avt = 100
     Ataque_avt = random.randint (10,20)
@@ -46,4 +46,4 @@ def show_atributos():
                 print ("Monstro:","Vida", Vida_mob,  "- Ataque", Ataque_mob)
                 print ("")
 
-show_atributos()
+main()
