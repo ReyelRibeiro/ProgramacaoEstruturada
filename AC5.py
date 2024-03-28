@@ -21,18 +21,22 @@ def show_atributos():
     print ("")
     
     while Vida_avt > 0 and Vida_mob > 0:
+        
         num_rodada = num_rodada + 1
         Dano_avt = (random.randint(1,Ataque_avt))
         Vida_mob = Vida_mob - Dano_avt
+
         if Vida_mob<=0:
             print ("Round", num_rodada)
             print ("O monstro morreu!")
         else:
             Dano_mob = (random.randint(1,Ataque_mob) - Def_avt)
+
             if Dano_mob <= 0:
                 Vida_avt = Vida_avt - 1
-            elif Dano_mob > 0:
+            else:
                 Vida_avt = Vida_avt - Dano_mob
+
             if Vida_avt<=0:
                 print ("Round", num_rodada)
                 print ("Você morreu!")
