@@ -19,9 +19,12 @@ print("X =", X)
 
 """
 Exercicio 3: O Calculo Simples
-Obs: Para Realizar a atividade foi nescesaria 2 linhas de entrada na tela para 6 valores diferentes,
-nesse exercicio era nessesario a ferramenta "input().spliy()" que não foi vista em aula.
 
+Obs: Para Realizar a atividade foi nescesaria 2 linhas de entrada na tela para 6 valores diferentes,
+nesse exercicio era nessesario a ferramenta "input().split()" que não foi vista em aula.
+
+Obs: Também foi nessesario a utilização de ""{:.2f}".format()", que também nao foi vista em aula,
+para aplicar duas casas decimais em casos de ".00" e semelhantes
 """
 
 codigo1, num1, valor1 = input().split()
@@ -41,7 +44,7 @@ print("VALOR A PAGAR: R$", total)
 
 """
 Exercicio 4: O Maior
-Obs: A ferramenta "input().spliy()" (que não foi vista em aula), precisou ser usada novamente
+Obs: A ferramenta "input().split()" (que não foi vista em aula), precisou ser usada novamente.
 """
 
 a, b, c = input().split()
@@ -56,7 +59,12 @@ maior = (maior_ab + c + abs(maior_ab - c)) // 2
 print(maior, "eh o maior")
 
 """
-Exercicio 5: Ditancia Entre Dois Pontos
+Exercicio 5: Ditancia Entre Dois
+
+Obs: A ferramenta "input().split()" (que não foi vista em aula), precisou ser usada novamente.
+
+Obs: A ferramenta ""{:.4f}".format()" (que não foi vista em aula), precisou ser usada novamente para mostrar 4 casa decimais 
+em caso de ".0000" e semelhantes
 """
 
 x1, y1 = input().split()
