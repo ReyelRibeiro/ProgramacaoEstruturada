@@ -45,8 +45,8 @@ else:
     print("Em percentual: 4 %")
 
 """
-# Exercicio 2: Pares entre 5 numeros
-# """
+Exercicio 2: Pares entre 5 numeros
+"""
 n1 = int(input())
 n2 = int(input())
 n3 = int(input())
